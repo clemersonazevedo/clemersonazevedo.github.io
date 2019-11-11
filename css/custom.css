@@ -1,0 +1,219 @@
+h2 {
+    color: #002e58;
+    font-size: 3.125rem;
+    font-weight: 800;
+}
+.main-nav a.faleconosco {
+    border: 1px solid #8298C5;
+    border-radius: 40px;
+    color: #8298C5;
+    margin-left: 20px;
+}
+.intro {
+    background-image: linear-gradient(to right, #002e58 0%,#002e58 50%,#f4f3f3 50%,#f4f3f3 100%);
+    margin-top: 80px;
+}
+.banner-title {
+    background: #002e58;
+}
+.banner-title img {
+    height: 100%;
+    position: relative;
+    width: 100%;
+}
+.banner-description {
+    background: #f4f3f3;
+    font-weight: 400;
+    padding: 9% 5% 8% 5%;
+}
+.description {
+    font-size: 1.5625rem;
+    line-height: 1.29;
+}
+.banner-description .description {
+    margin-top: 20px;
+}
+.engine img {
+    float: right;
+    height: 100%;
+    width: 70%;
+}
+.engine h2 {
+    margin: 8% 0 4%;
+}
+.engine .text {
+    padding: 6% 1%;
+}
+/*-----------------*/
+.bg-abstract-blue {
+    background-image: url(../img/abstract-blue.png);
+}
+.bg-abstract {
+    background-image: url(../img/abstract.png);
+}
+/*-----------------*/
+.completo-e-integrado {
+    text-align: center;
+}
+.completo-e-integrado h2 {
+    padding-top: 5%;
+}
+.completo-e-integrado .extra {
+    text-align: center;
+    padding-top: 2%;
+    background-color: #002e58;
+    color:white;
+}
+.completo-e-integrado-grafico .img-fluid {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 80%;
+    position: relative;
+    left: 25%;
+}
+/*-----------------*/
+.quem-somos header {
+    padding: 8% 0 4%;
+    text-align: center;
+}
+.quem-somos h3 {
+    font-weight: 700;
+    color: #002e58;
+}
+/*-----------------*/
+.video {
+    position: relative;
+    cursor: pointer;
+    display: -webkit-flex;
+    display: flex;
+    text-shadow: 1px 2px 4px rgba(0, 0, 0, .3);
+}
+/*-----------------*/
+.align-items-center {
+    align-items: center !important;
+}
+.justify-content-center {
+    justify-content: center !important;
+}
+.video-holder {
+    background-color: #1b3e67;
+}
+.video-play {
+    background-image: url(../img/play.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+}
+.video-title {
+    position: absolute;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin-top: 5.625rem;
+    font-size: 1.875rem;
+    font-weight: 600;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+.extra h4 {
+    font-size: 2.44rem;
+    margin: 0;
+    font-weight: 800;
+}
+.extra p {
+    margin: 0 0 2%;
+}
+.mailwhats {
+    margin-top: 5%;
+    font-weight: bold;
+}
+.mailwhats a {
+    color: #002e58;
+}
+.footer-top .footer-contact p {
+    margin-bottom: 3%;
+}
+.footer-contact a {
+    color: #FFFFFF;
+}
+.footer-contact strong {
+    color: #8298C5;
+}
+.quem-somos .row {
+    padding-bottom: 6%;
+}
+.member {
+    border-top: 1px solid #8298C5;
+    padding: 4% 5% 0;
+}
+.member:nth-child(1) {
+    border-left: 1px solid #8298C5;
+}
+.member:nth-child(2) {
+    border-right: 1px solid #8298C5;
+    border-top: 1px solid #8298C5;
+}
+.member:nth-child(3) {
+    border-left: 1px solid #8298C5;
+    border-top: 1px solid #8298C5;
+    border-bottom: 1px solid #8298C5;
+}
+/*-----------------*/
+.o-que-resolvemos img {
+    width: 80%;
+    margin: 5% 0 6%;
+}
+.o-que-resolvemos .row {
+    text-align: center;
+}
+/*-----------------*/
+
+.como-funciona-o-setup img {
+    width: 100%;
+    margin: 7% 0 6%;
+}
+.como-funciona-o-setup .row {
+    text-align: center;
+}
+/*-----------------*/
+
+.como-funciona h2 {
+    padding: 9% 0 0;
+    text-transform: uppercase;
+    line-height: 1.1;
+}
+.como-funciona h2 span {
+    color: #8298C5;
+}
+.como-funciona h4 {
+    font-weight: 800;
+    font-size: 1em;
+}
+.como-funciona img {
+    margin: 5% 0 6%;
+    width: 100%;
+}
+.como-funciona .legenda {
+    font-size: 0.7em;
+    font-weight: 500;
+}
+.como-funciona .legenda img {
+    width: 35px;
+    margin: 0 10px;
+}
+
+
+@media (min-width: 992px) {}
+@media (max-width: 991px) {
+    .intro {
+        background-image:linear-gradient(to bottom, #002e58 0%,#002e58 50%,#f4f3f3 50%,#f4f3f3 100%);
+    }
+}
+@media (max-width: 768px) {}
+@media (max-width: 767px) {}
+@media (max-width: 574px) {}
