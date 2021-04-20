@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="3000" height="3000" viewBox="0 0 3000 3000">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#radial-gradient);
+      }
+    </style>
+    <radialGradient id="radial-gradient" cx="0.5" cy="1" r="0.572" gradientTransform="translate(-1.189 1.5) rotate(-90) scale(1 1.689)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#3881b6" stop-opacity="0.416"/>
+      <stop offset="1" stop-color="#2f4050"/>
+    </radialGradient>
+  </defs>
+  <rect id="Retângulo_11099" data-name="Retângulo 11099" class="cls-1" width="3000" height="3000"/>
+</svg>
