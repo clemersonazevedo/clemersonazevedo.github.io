@@ -881,8 +881,8 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url("../img/cta-bg.jpg") fixed center center;
-  background-size: cover;
+  background: linear-gradient(rgba(0, 130, 187, 0.9), rgba(0, 130, 187, 0.9)), url("../img/cta-bg.jpg") fixed center center;
+  background-size: contain;
   padding: 120px 0;
 }
 
@@ -1186,11 +1186,15 @@ section {
 # Pricing
 --------------------------------------------------------------*/
 .pricing .row {
-  padding-top: 40px;
+  padding-top: 20px;
+}
+
+.pricing .price-value {
+  text-align: center;
 }
 
 .pricing .box {
-  padding: 60px 40px;
+  padding: 20px 40px 40px;
   box-shadow: 0 3px 20px -2px rgba(20, 45, 100, 0.1);
   background: #fff;
   height: 100%;
@@ -1199,48 +1203,61 @@ section {
 }
 
 .pricing h3 {
-  font-weight: 500;
-  margin-bottom: 15px;
-  font-size: 20px;
+  font-weight:bold;
+  /* margin-bottom: 15px; */
+  font-size: 26px;
   color: #37517e;
+  margin: 25px 0 0;
 }
 
 .pricing h4 {
-  font-size: 48px;
   color: #37517e;
-  font-weight: 400;
+  font-size: 30px;
+  font-weight: bold;
   font-family: "Ubuntu", sans-serif;
-  margin-bottom: 25px;
+  /* margin-bottom: 25px; */
 }
 
 .pricing h4 sup {
-  font-size: 28px;
+  color: #0082BB;
+  font-weight: normal;
+  font-size: 18px;
+  top: -0.2em;
 }
 
-.pricing h4 span {
+/* .pricing h4 span {
   color: #0082BB;
   font-size: 18px;
   display: block;
-}
+} */
 
 .pricing ul {
   padding: 20px 0;
   list-style: none;
   color: #999;
-  text-align: left;
+  text-align: center;
   line-height: 20px;
+}
+.pricing .text li{
+  text-align: left;
 }
 
 .pricing ul li {
-  padding: 10px 0 10px 30px;
+    /* padding: 10px 0 10px 30px; */
+  padding: 0 20px 0 0;
   position: relative;
+  height: 30px;
+  font-size: 0.9em;
+}
+.pricing .info ul li {
+  padding: 0;
 }
 
 .pricing ul i {
   color: #28a745;
   font-size: 24px;
   position: absolute;
-  left: 0;
+  /* left: 0; */
   top: 6px;
 }
 
@@ -1741,7 +1758,7 @@ section {
 }
 
 #footer .footer-top .footer-links ul li {
-  padding: 10px 0;
+  padding: 6px 0;
   display: flex;
   align-items: center;
 }
@@ -1816,6 +1833,8 @@ section {
   }
 }
 
+/* NOVAS */
+
 .embed {
   position: relative;
   height: 0;
@@ -1858,4 +1877,12 @@ section {
 }
 #about .section-title h2 {
   color: #FFF;
+}
+
+.logo-footer {
+  height: 1.5em;
+}
+
+.select-price {
+  border: 1px solid #0082BB;
 }
