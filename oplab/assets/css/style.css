@@ -1234,11 +1234,12 @@ section {
 .pricing ul {
   padding: 20px 0;
   list-style: none;
-  color: #999;
+  color: #475E77;
   text-align: center;
   line-height: 20px;
 }
-.pricing .text li{
+
+.pricing .info li, .pricing .info h4 {
   text-align: left;
 }
 
@@ -1249,7 +1250,7 @@ section {
   height: 30px;
   font-size: 0.9em;
 }
-.pricing .info ul li {
+.pricing .info li {
   padding: 0;
 }
 
@@ -1271,6 +1272,22 @@ section {
 
 .pricing ul .na span {
   text-decoration: line-through;
+}
+
+.pricing .select-price {
+  border: 2px solid #0082BB;
+  padding: 0;
+  border-radius: 1em;
+}
+
+.pricing .top{
+  background-color: #0082BB;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: #FFF;
+  font-weight: bold;
+  padding: 7px 0;
+  text-align: center;
 }
 
 .pricing .buy-btn {
@@ -1800,6 +1817,13 @@ section {
   text-decoration: none;
 }
 
+#footer .footer-top .footer-links p a {
+  margin-top: 25px;
+  padding-top: 15px;
+  display: block;
+  border-top: 2px solid #CCC;
+}
+
 #footer .footer-bottom {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -1881,8 +1905,4 @@ section {
 
 .logo-footer {
   height: 1.5em;
-}
-
-.select-price {
-  border: 1px solid #0082BB;
 }
