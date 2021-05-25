@@ -384,9 +384,9 @@ h1, h2, h3, h4, h5, h6 {
   background: #FFF;
 }
 
-#hero .container {
-  /* padding-top: 72px; */
-}
+/* #hero .container {
+  padding-top: 72px;
+} */
 
 #hero h1 {
   margin: 0 0 10px 0;
@@ -901,7 +901,7 @@ section {
   color: #fff;
 }
 
-.cta .cta-btn {
+.cta-btn {
   font-family: "Ubuntu", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -915,7 +915,21 @@ section {
   color: #fff;
 }
 
-.cta .cta-btn:hover {
+.cta-btn {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 40px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.cta-btn:hover {
   background: #0082BB;
   border: 2px solid #0082BB;
 }
