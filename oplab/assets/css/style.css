@@ -112,7 +112,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-scrolled, #header.header-inner-pages {
-  background: #FFF;
+  background: #f3f5fa;
   box-shadow: 0px 0px 20px rgba(71, 94, 119, 0.15);
 }
 
@@ -375,6 +375,12 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
 }
 
+@media (max-width: 991px) {
+  #tools {
+    display: none;
+  }
+}
+
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
@@ -453,8 +459,9 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 991px) {
   #hero {
-    height: 100vh;
+    /* height: 100vh; */
     text-align: center;
+    padding-top: 130px;
   }
   #hero .animated {
     -webkit-animation: none;
