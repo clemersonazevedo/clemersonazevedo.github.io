@@ -1102,6 +1102,15 @@ section {
   background-color: #0082BB;
 }
 
+.swiper-pagination {
+  width: 100%;
+  padding-right: 20px;
+}
+
+.swiper-pagination span {
+  margin: 0 3px;
+}
+
 .portfolio-details .portfolio-info {
   padding: 30px;
   box-shadow: 0px 0 30px rgba(55, 81, 126, 0.08);
@@ -2003,10 +2012,10 @@ section {
   background-position: top center;
   background-repeat: no-repeat;
   background-size: 100%;
-  width: 900px;
+  width: 1800px;
   height: 524px;
   position: absolute;
-  left: calc(50% - 450px);
+  left: calc(50% - 900px);
   z-index: 100;
 }
 
