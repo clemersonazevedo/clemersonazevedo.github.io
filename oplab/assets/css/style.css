@@ -886,7 +886,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(0, 130, 187, 0.9), rgba(0, 130, 187, 0.9)), url("../img/cta-bg.jpg") fixed center center;
+  background: linear-gradient(rgba(0, 130, 187, 0.9), rgba(0, 130, 187, 0.9)), url("../img/cta-bg.gif") fixed center center;
   background-size: contain;
   padding: 100px 0;
 }
@@ -1998,7 +1998,9 @@ section {
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-size: 100%;
 }
+
 #about .section-title h2 {
   color: #FFF;
 }
