@@ -15,7 +15,9 @@
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+    rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
@@ -28,6 +30,28 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  <script type="text/javascript">
+
+    function changeValue(type, btn) {
+        if(type === 'MONTH') {
+          document.getElementById("idFree").innerHTML = '0';
+          document.getElementById("idFit").innerHTML = '<sup>R$</sup><span>37</span><sup>/mês</sup>';
+          document.getElementById("idMax").innerHTML = '<sup>R$</sup><span>119</span><sup>/mês</sup>';
+          document.getElementById("idPro").innerHTML = 'sob consulta';
+          document.getElementById("idBtnMensal").className = 'ativo';
+          document.getElementById("idBtnAnual").className = 'desativo';
+        }
+        if(type == 'YEARLY') {
+          document.getElementById("idFree").innerHTML = '0';
+          document.getElementById("idFit").innerHTML = '<sup>R$</sup><span>370</span><sup>/ano</sup>';
+          document.getElementById("idMax").innerHTML = '<sup>R$</sup><span>1.190</span><sup>/ano</sup>';
+          document.getElementById("idPro").innerHTML = 'sob consulta';
+          document.getElementById("idBtnMensal").className = 'desativo';
+          document.getElementById("idBtnAnual").className = 'ativo';
+        }
+    }
+
+  </script>
 </head>
 
 <body>
@@ -40,7 +64,7 @@
         <a href="index.html" class="logo me-auto"><img src="assets/img/oplab.svg" alt="OpLab" class="img-fluid"></a>
       </h1>
       <!-- Uncomment below if you prefer to use an image logo -->
-      
+
 
       <nav id="navbar" class="navbar">
         <ul>
@@ -69,7 +93,8 @@
 
     <div class="container">
       <div class="row">
-        <div class="col-lg-12 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
+        <div class="col-lg-12 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1"
+          data-aos="fade-up" data-aos-delay="200">
           <img src="./assets/img/ferramenta.png">
         </div>
       </div>
@@ -82,10 +107,12 @@
 
     <div class="container">
       <div class="row">
-        <div class="col-lg-5 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
+        <div class="col-lg-5 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1"
+          data-aos="fade-up" data-aos-delay="200">
           <h1>OpLab</h1>
           <h2>Esqueça as planilhas e os cálculos complexos!</h2>
-          <p>O OpLab é uma plataforma Web e Mobile que simplifica o mercado financeiro para você gerenciar seus investimentos com eficiência.</p>
+          <p>O OpLab é uma plataforma Web e Mobile que simplifica o mercado financeiro para você gerenciar seus
+            investimentos com eficiência.</p>
           <div class="d-flex justify-content-center justify-content-lg-start">
             <a href="https://app.oplab.com.br/cadastro" class="btn-get-started scrollto">Acesse agora!</a>
           </div>
@@ -135,28 +162,34 @@
             <div class="icon-box">
               <div class="icon"><i class="bi bi-broadcast-pin"></i></div>
               <h4><a href="">Roteamento de ordens</a></h4>
-              <p>Tenha uma experiência de trade completa com algoritmos potentes que trazem segurança, velocidade e eficiência incomparáveis aos seus investimentos.</p>
+              <p>Tenha uma experiência de trade completa com algoritmos potentes que trazem segurança, velocidade e
+                eficiência incomparáveis aos seus investimentos.</p>
             </div>
           </div>
 
-          <div class="col-xl-2 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+          <div class="col-xl-2 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in"
+            data-aos-delay="200">
             <div class="icon-box">
               <div class="icon"><i class="bi bi-shield-check"></i></div>
               <!-- <div class="icon"><i class="bi bi-gear-wide-connected"></i></div> -->
               <h4><a href="">Controle integrado de risco</a></h4>
-              <p>Os indicadores de volatilidade, correlação e beta ponderados permitem uma visão de risco global com diferentes classes de ativos.</p>
+              <p>Os indicadores de volatilidade, correlação e beta ponderados permitem uma visão de risco global com
+                diferentes classes de ativos.</p>
             </div>
           </div>
 
-          <div class="col-xl-2 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="300">
+          <div class="col-xl-2 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in"
+            data-aos-delay="300">
             <div class="icon-box">
               <div class="icon"><i class="bi bi-compass"></i></div>
               <h4><a href="">Explorador de oportunidades</a></h4>
-              <p>Facilite sua gestão! Salve parâmetros de operações e deixe que o OpLab procure as melhores estratégias para você.</p>
+              <p>Facilite sua gestão! Salve parâmetros de operações e deixe que o OpLab procure as melhores estratégias
+                para você.</p>
             </div>
           </div>
 
-          <div class="col-xl-2 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="400">
+          <div class="col-xl-2 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in"
+            data-aos-delay="400">
             <div class="icon-box">
               <div class="icon"><i class="bi bi-clock"></i></div>
               <h4><a href="">Cotações do mercado em tempo real</a></h4>
@@ -164,19 +197,23 @@
             </div>
           </div>
 
-          <div class="col-xl-2 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="500">
+          <div class="col-xl-2 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in"
+            data-aos-delay="500">
             <div class="icon-box">
               <div class="icon"><i class="bi bi-graph-up"></i></div>
               <h4><a href="">Destaques do mercado</a></h4>
-              <p>Fique por dentro de todas as movimentações do mercado, maiores tendências, maiores volatilidades, ROICs e P/L.</p>
+              <p>Fique por dentro de todas as movimentações do mercado, maiores tendências, maiores volatilidades, ROICs
+                e P/L.</p>
             </div>
           </div>
 
-          <div class="col-xl-2 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="600">
+          <div class="col-xl-2 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in"
+            data-aos-delay="600">
             <div class="icon-box">
               <div class="icon"><i class="bi bi-speedometer2"></i></div>
               <h4><a href="">Oplab score</a></h4>
-              <p>Indicador próprio que mistura estatística e fundamentos, desenvolvido para te dar eficiência na hora de compor a carteira de investimentos.</p>
+              <p>Indicador próprio que mistura estatística e fundamentos, desenvolvido para te dar eficiência na hora de
+                compor a carteira de investimentos.</p>
             </div>
           </div>
 
@@ -199,7 +236,7 @@
         </div>
 
         <div class="col-lg-12">
-          
+
           <div class="laptopmask">
           </div>
 
@@ -209,15 +246,15 @@
               <div class="swiper-slide">
                 <img src="assets/img/laptop-telas_0000_pozinhos.jpg" alt="">
               </div>
-              
+
               <div class="swiper-slide">
                 <img src="assets/img/laptop-telas_0001_monitor de mercado.jpg" alt="">
               </div>
-              
+
               <div class="swiper-slide">
                 <img src="assets/img/laptop-telas_0002_cockpit.jpg" alt="">
               </div>
-              
+
               <div class="swiper-slide">
                 <img src="assets/img/laptop-telas_0003_analise.jpg" alt="">
               </div>
@@ -262,7 +299,11 @@
               <div class="member-info">
                 <h4>DenDen</h4>
                 <span>Trader, autor do curso "Vencendo com Opções 2.0"</span>
-                <p>Fala Tuurma! Aqui é Felipe Denden e quem me conhece sabe que minha especialidade é daytrade em opções. Acontece que, muitas vezes, o mercado dá oportunidades de fazer operações de swing trade e montar travas. Como todo trader, busco sempre aumentar minha confiança na tomada de decisão, e, por isso, uso sempre o OPLAB nas minhas análises. Não tem comparação, Oplab é a ferramenta mais completa para análise de opções. Não vejo a hora de poder operar por ele também!</p>
+                <p>Fala Tuurma! Aqui é Felipe Denden e quem me conhece sabe que minha especialidade é daytrade em
+                  opções. Acontece que, muitas vezes, o mercado dá oportunidades de fazer operações de swing trade e
+                  montar travas. Como todo trader, busco sempre aumentar minha confiança na tomada de decisão, e, por
+                  isso, uso sempre o OPLAB nas minhas análises. Não tem comparação, Oplab é a ferramenta mais completa
+                  para análise de opções. Não vejo a hora de poder operar por ele também!</p>
               </div>
             </div>
           </div>
@@ -273,7 +314,12 @@
               <div class="member-info">
                 <h4>Leo Dutra</h4>
                 <span>Especialista em Opções, criador do Sistema Diamante</span>
-                <p>Hoje eu uso o OPLAB para estudar todas as minhas operações e recomendo para todos os meus alunos e assinantes. É uma plataforma intuitiva, fácil de usar e que permite que você tenha acesso a todos os dados do mercado de opções em tempo real. Com isso, nos permitimos a testar novas estratégias e acompanhar os resultados para saber o que pode ser interessante ou não para cada cenário do mercado. Uso e recomendo para todos que queiram ganhar dinheiro com opções. Fará uma enorme diferença nos seus estudos e no seu desenvolvimento.</p>
+                <p>Hoje eu uso o OPLAB para estudar todas as minhas operações e recomendo para todos os meus alunos e
+                  assinantes. É uma plataforma intuitiva, fácil de usar e que permite que você tenha acesso a todos os
+                  dados do mercado de opções em tempo real. Com isso, nos permitimos a testar novas estratégias e
+                  acompanhar os resultados para saber o que pode ser interessante ou não para cada cenário do mercado.
+                  Uso e recomendo para todos que queiram ganhar dinheiro com opções. Fará uma enorme diferença nos seus
+                  estudos e no seu desenvolvimento.</p>
               </div>
             </div>
           </div>
@@ -284,7 +330,10 @@
               <div class="member-info">
                 <h4>Vinícius</h4>
                 <span>Adm do grupo de Opções Ozmoney</span>
-                <p>Fala Galera! Aqui é o Vinicius Adm do grupo de Opções da OzMoney. Queria aqui agradecer pelo Oplab, no Brasil não existe ferramenta mais poderosa para quem opera opções. Fica muito mais fácil entender o efeito das gregas , o risco x retorno e principalmente a parte dos filtros de estrátegias que para quem está começando é simplesmente sensacional!</p>
+                <p>Fala Galera! Aqui é o Vinicius Adm do grupo de Opções da OzMoney. Queria aqui agradecer pelo Oplab,
+                  no Brasil não existe ferramenta mais poderosa para quem opera opções. Fica muito mais fácil entender o
+                  efeito das gregas , o risco x retorno e principalmente a parte dos filtros de estrátegias que para
+                  quem está começando é simplesmente sensacional!</p>
               </div>
             </div>
           </div>
@@ -295,7 +344,9 @@
               <div class="member-info">
                 <h4>William</h4>
                 <span>Sócio da Sencon e Investidor</span>
-                <p>OpLab é uma ferramenta essencial para todo investidor que utiliza opções. A matemática aplicada ao mundo das opções é extremamente complexa, então simplificar isso e ainda ganhar tempo na tomada de decisão traz retorno sobre o investimento muito rapidamente.</p>
+                <p>OpLab é uma ferramenta essencial para todo investidor que utiliza opções. A matemática aplicada ao
+                  mundo das opções é extremamente complexa, então simplificar isso e ainda ganhar tempo na tomada de
+                  decisão traz retorno sobre o investimento muito rapidamente.</p>
               </div>
             </div>
           </div>
@@ -311,10 +362,16 @@
 
         <div class="section-title">
           <h2>Preço</h2>
-          <p>Comece a descomplicar as opções agora mesmo. Aproveite o teste grátis e experimente todas as vantagens do plano Max por 30 dias. Depois, é só escolher a opção ideal para o seu perfil e continuar simplificando o mercado de opções com o melhor aplicativo online de análise.</p>
+          <p>Comece a descomplicar as opções agora mesmo. Aproveite o teste grátis e experimente todas as vantagens do
+            plano Max por 30 dias. Depois, é só escolher a opção ideal para o seu perfil e continuar simplificando o
+            mercado de opções com o melhor aplicativo online de análise.</p>
         </div>
 
         <div class="boxweb">
+          <div class="btcenter">
+            <a id="idBtnMensal" class='ativo' onclick="javascript: changeValue('MONTH')">Mensal</a>
+            <a id="idBtnAnual"  class='desativo'  onclick="javascript: changeValue('YEARLY')">Anual</a>
+          </div>
           <div class="row price-value">
             <div class="col-lg-4 info box" data-aos="fade-up" data-aos-delay="100">
               <h3>&nbsp;</h3>
@@ -339,7 +396,7 @@
             </div>
             <div class="col-lg-2 box" data-aos="fade-up" data-aos-delay="100">
               <h3>Grátis</h3>
-              <h4><sup>R$</sup>0<sup>/mês</sup></h4>
+              <h4><sup>R$</sup><span id="idFree">0</span><sup>/mês</sup></h4>
               <ul>
                 <li class="na"><i class="bx bx-x"></i></li>
                 <li class="na"><i class="bx bx-x"></i></li>
@@ -360,7 +417,7 @@
             </div>
             <div class="col-lg-2 box" data-aos="fade-up" data-aos-delay="100">
               <h3>FIT</h3>
-              <h4><sup>R$</sup>37<sup>/mês</sup></h4>
+              <h4 id="idFit"><sup>R$</sup><span>37</span><sup>/mês</sup></h4>
               <ul>
                 <li class="na"><i class="bx bx-x"></i></li>
                 <li class="na"><i class="bx bx-x"></i></li>
@@ -381,7 +438,7 @@
             </div>
             <div class="col-lg-2 box select-price" data-aos="fade-up" data-aos-delay="100">
               <h3>MAX</h3>
-              <h4><sup>R$</sup>119<sup>/mês</sup></h4>
+              <h4 id="idMax"><sup>R$</sup><span>119</span><sup>/mês</sup></h4>
               <ul>
                 <li class="na"><i class="bx bx-x"></i></li>
                 <li class="na"><i class="bx bx-x"></i></li>
@@ -403,7 +460,7 @@
             </div>
             <div class="col-lg-2 box" data-aos="fade-up" data-aos-delay="100">
               <h3>PRO</h3>
-              <h4><sup>R$</sup>229<sup>/mês</sup></h4>
+              <h4><sup id="idPro">sob consulta</sup></h4>
               <ul>
                 <li><i class="bx bx-check"></i></li>
                 <li><i class="bx bx-check"></i></li>
@@ -443,7 +500,8 @@
         <div class="row">
           <div class="col-lg-9 text-center text-lg-start">
             <h3>Faça seu cadastro agora!</h3>
-            <p>Acesse nossa ferramenta e exprimente sem compromisso por 7 dias todas as possibilidades que só a OpLab Investing Tools pode oferecer.</p>
+            <p>Acesse nossa ferramenta e exprimente sem compromisso por 7 dias todas as possibilidades que só a OpLab
+              Investing Tools pode oferecer.</p>
           </div>
           <div class="col-lg-3 cta-btn-container text-center">
             <a class="cta-btn align-middle" href="#">Cadastre-se Grátis!</a>
@@ -479,11 +537,14 @@
             <!-- <h4>Outros Serviços</h4> -->
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="#">FAQ</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="https://www.linkedin.com/company/oplab/">Trabalhe com a gente</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://www.linkedin.com/company/oplab/">Trabalhe com a
+                  gente</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Seja um afiliado</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Parceiros</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="https://www.oplab.com.br/termos-de-servico/">Termos de Serviço</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="https://www.oplab.com.br/politica-de-privacidade/">Política de Privacidade</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://www.oplab.com.br/termos-de-servico/">Termos de
+                  Serviço</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a
+                  href="https://www.oplab.com.br/politica-de-privacidade/">Política de Privacidade</a></li>
             </ul>
           </div>
 
@@ -496,10 +557,10 @@
               <a href="https://www.instagram.com/oplab.app/" class="instagram"><i class="bx bxl-instagram"></i></a>
               <a href="https://www.youtube.com/c/OpLab" class="youtube"><i class="bx bxl-youtube"></i></a>
               <a href="https://www.linkedin.com/company/oplab/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-            </div>          
+            </div>
             <p class="mailsend"><a href="mailto:contato@oplab.com.br">contato@oplab.com.br</a></p>
           </div>
-  
+
         </div>
       </div>
     </div>
@@ -512,7 +573,8 @@
   </footer><!-- End Footer -->
 
   <div id="preloader"></div>
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/aos/aos.js"></script>

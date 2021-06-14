@@ -1399,6 +1399,25 @@ section {
   text-align: center;
 }
 
+.ativo, .desativo {
+  cursor: pointer;
+  display: inline-block;
+  margin: 10px 5px;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1;
+  color: #444444;
+  transition: all 0.3s;
+  padding: 8px 20px;
+  border-radius: 50px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.ativo {
+  background: #0082BB;
+  color: #fff;
+}
+
 @media (max-width: 992px) {
   .pricing .box {
     max-width: 60%;
