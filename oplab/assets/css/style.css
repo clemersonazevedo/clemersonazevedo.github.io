@@ -1306,6 +1306,26 @@ section {
   top: -0.2em;
 }
 
+.pricing .priceChange {
+  height: 70px;
+}
+
+.pricing h4 {
+  margin: 0;
+}
+
+.pricing .priceChange .old {
+  text-decoration: line-through;
+  font-weight: normal;
+  border: none;
+}
+.pricing .priceChange .old sup {
+  color: #848484;
+}
+.pricing .priceResources {
+  padding-top: 90px;
+}
+
 /* .pricing h4 span {
   color: #0082BB;
   font-size: 18px;
