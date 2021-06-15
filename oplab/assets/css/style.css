@@ -1741,7 +1741,7 @@ section {
   padding: 15px 0;
   background: #f3f5fa;
   min-height: 40px;
-  margin-top: 72px;
+  margin-top: 95px;
 }
 
 @media (max-width: 992px) {
@@ -2083,6 +2083,27 @@ section {
     letter-spacing: 5px;
   }
 }
+
+/*--------------------------------------------------------------
+# Termos de serviço
+--------------------------------------------------------------*/
+
+.inner-page {
+  color: #37517e;
+  border-bottom: 5px solid #9CACBB;
+}
+.inner-page p {
+  line-height: 1.7em;
+  opacity: 0.8;
+}
+.inner-page h2 {
+  margin: 15px 0 40px 0;
+}
+.inner-page h4 {
+  margin: 40px 0 15px 0;
+  font-weight: bold;
+}
+
 /* @media (max-width: 575px) 
 @media (max-width: 768px) 
 @media (max-width: 991px)
