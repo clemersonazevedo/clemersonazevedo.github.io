@@ -1966,11 +1966,15 @@ section {
   text-decoration: none;
 }
 
-#footer .footer-top .footer-links p a {
-  margin-top: 25px;
-  padding-top: 15px;
-  display: block;
+#footer .footer-top .footer-links p.mailsend {
   border-top: 2px solid #CCC;
+  margin-top: 20px;
+  padding-top: 10px;
+}
+
+#footer .footer-top .footer-links p a {
+  display: block;
+  padding: 10px 0 0;
 }
 
 #footer .footer-bottom {
