@@ -897,7 +897,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(0, 130, 187, 0.9), rgba(0, 130, 187, 0.9)), url("../img/cta-bg.gif") fixed center center;
+  background: linear-gradient(rgba(0, 130, 187, 0.7), rgba(0, 130, 187, 0.7)), url("../img/cta-bg.gif") fixed center center;
   background-size: contain;
   padding: 100px 0;
 }
@@ -1266,13 +1266,9 @@ section {
 /*--------------------------------------------------------------
 # Pricing
 --------------------------------------------------------------*/
-.pricing .row {
+/* .pricing .row {
   padding-top: 20px;
-}
-
-.pricing .price-value {
-  text-align: center;
-}
+} */
 
 .pricing .boxweb {
   padding: 20px 40px 40px;
@@ -1285,10 +1281,9 @@ section {
 
 .pricing h3 {
   font-weight:bold;
-  /* margin-bottom: 15px; */
   font-size: 26px;
   color: #37517e;
-  margin: 25px 0 0;
+  margin: 5px 0 0;
 }
 
 .pricing h4 {
@@ -1296,7 +1291,8 @@ section {
   font-size: 30px;
   font-weight: bold;
   font-family: "Ubuntu", sans-serif;
-  /* margin-bottom: 25px; */
+  margin: 0;
+  height: 25px;
 }
 
 .pricing h4 sup {
@@ -1306,32 +1302,6 @@ section {
   top: -0.2em;
 }
 
-.pricing .priceChange {
-  height: 70px;
-}
-
-.pricing h4 {
-  margin: 0;
-}
-
-.pricing .priceChange .old {
-  text-decoration: line-through;
-  font-weight: normal;
-  border: none;
-}
-.pricing .priceChange .old sup {
-  color: #848484;
-}
-.pricing .priceResources {
-  padding-top: 90px;
-}
-
-/* .pricing h4 span {
-  color: #0082BB;
-  font-size: 18px;
-  display: block;
-} */
-
 .pricing ul {
   padding: 20px 0 0;
   list-style: none;
@@ -1340,25 +1310,81 @@ section {
   line-height: 20px;
 }
 
-.pricing .info li, .pricing .info h4 {
-  text-align: left;
-}
-
 .pricing ul li {
-  /* padding: 10px 0 10px 30px;
-  position: relative; */
-  height: 30px;
   font-size: 0.9em;
 }
+
+.pricing ul li:hover {
+  background-color: #eff2f8;
+}
+
+.pricing .priceChange .old {
+  text-decoration: line-through;
+  font-weight: normal;
+  border: none;
+}
+
+.pricing .priceChange .old sup {
+  color: #848484;
+}
+
+.pricing .priceResources {
+  padding-top: 90px;
+}
+
+.pricing .priceChange {
+  height: 70px;
+  text-align: center;
+}
+
+.pricing li div {
+  text-align: left;
+  padding-left: 10px;
+  padding-top: 1px;
+}
+
+.pricing li div.priceGratis, .pricing li div.priceFit, .pricing li div.priceMax {
+  text-align: center;
+}
+
+.pricePrice .priceChange {
+  border: 1px solid #0082BB;
+  border-radius: 10px;
+}
+
 .pricing .info li {
-  padding: 0;
+  height: 27px;
+}
+
+.pricing .info li.priceTitle {
+  height: 40px;  
+}
+
+.pricing .info li.pricePrice {
+  height: 80px;
+}
+
+.pricing .info li.priceDescription {
+  text-align: center;
+  font-size: 0.7em;
+  line-height: 1.3em;
+  height: 50px;
+}
+
+.pricing .priceTitle:hover, .pricing .priceDescription:hover, .pricing .pricePrice:hover, .pricing .priceCta:hover {
+  background: none;
+}
+
+.pricing .priceCta .ativo {
+  border: 1px solid #0082BB;
+  color: #0082BB;
+  background: none;
+  margin-top: 10px;
 }
 
 .pricing ul i {
   color: #28a745;
   font-size: 24px;
-  /* position: absolute;
-  left: 0; */
   top: 6px;
   font-weight: bold;
 }
@@ -2104,14 +2130,15 @@ section {
 }
 
 .OpLabSignature2 {
-  background-color: #FFF; 
-  color: #0082BB; 
+  background-color: #0082BB; 
+  color: #FFF; 
   text-align: center; 
   margin-top: 15px; 
   font-size: 0.8em; 
   padding: 1px 0; 
-  letter-spacing: 10px;
+  letter-spacing: 6px;
 }
+
 @media (max-width: 420px) {
   .OpLabSignature2, .OpLabSignature {
     letter-spacing: 5px;
