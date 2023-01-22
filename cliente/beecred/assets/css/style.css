@@ -395,7 +395,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #points .box-image img {
   width: 100%;
-}
+} 
 
 #points .inovar {
   background: url("../img/inovar.jpg") fixed center center no-repeat;
@@ -412,13 +412,30 @@ h1, h2, h3, h4, h5, h6 {
   background-size: cover;
 }  
 
+@media (max-width: 991px) {
+  #points .inovar, #points .grafico, #points .colmeia {
+    background-size: cover;
+  }
+}
+@media (max-width: 768px) {
+  #points .inovar, #points .grafico, #points .colmeia {
+    background-size: cover;
+  }
+}
+@media (max-width: 575px) {
+  #points .inovar, #points .grafico, #points .colmeia {
+    background-size: cover;
+  }
+}
+
+
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
   height: 90vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/bg-header.png") fixed center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/bg-header.png") fixed center center repeat-y;
   /* background-size: contain; */
   background-size: cover;
 }
