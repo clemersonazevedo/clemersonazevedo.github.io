@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.104.2">
+
+    <title>BeeCred</title>
+    
+    <link href="assets/dist/fontawesome/css/all.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/headers/">
+    <link href="assets/dist/css/navbar-top-fixed.css">
+    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/dist/css/headers.css" rel="stylesheet">
+    
+    <link rel="icon" href="assets/dist/images/beecred-logo.svg">
+    <link href="assets/dist/css/custom.css" rel="stylesheet">
+  </head>
+  <body>
+    
+<main>
+
+  <div w3-include-html="header.html"></div>
+  
+  <main class="container p-4">
+    <div class="row justify-content-center">
+      <div class="col">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb p-3">
+            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Relatório administrativo</li>
+          </ol>
+        </nav>
+      </div>
+      <div class="col-3">
+        <input type="text" class="form-control bg-light" placeholder="Nova pesquisa">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12">
+        <div class="bee-card">
+          <h4 class="pb-2">Relatório administrativo</h4>
+
+          <div class="bee-rel-empresa">
+            <div class="row">
+              <div class="col">
+                <h5>Empresa Nome S.A.</h5>
+                <h5>CNPJ 12.345.678/0001-99</h5>
+              </div>
+              <div class="col">
+                <h5>Plano MAX anual</h5>
+                <h5>Preço R$ 1.234,56</h5>
+              </div>
+              <div class="col">
+                <h5>BeeCoins Gerados</h5>
+                <h5>BC$ 1.434 (30 dias)</h5>
+              </div>
+              <div class="col">
+                <h5>BeeCoins Saldo</h5>
+                <h5>BC$ 234</h5>
+              </div>
+            </div>
+          </div>
+
+          <h4 class="pb-2 mt-4">Período</h4>
+          <div class="col flex-grow-1">
+            <input type="radio" class="btn-check" name="options" id="option1" autocomplete="off" checked>
+            <label class="btn btn-outline-secondary me-2" for="option1">jun/24</label>
+            <input type="radio" class="btn-check" name="options" id="option2" autocomplete="off">
+            <label class="btn btn-outline-secondary me-2" for="option2">mai/24</label>
+            <input type="radio" class="btn-check" name="options" id="option3" autocomplete="off">
+            <label class="btn btn-outline-secondary me-2" for="option3">abr/24</label>
+            <input type="radio" class="btn-check" name="options" id="option4" autocomplete="off">
+            <label class="btn btn-outline-secondary me-2" for="option4">mar/24</label>
+            <input type="radio" class="btn-check" name="options" id="option5" autocomplete="off">
+            <label class="btn btn-outline-secondary me-2" for="option5">fev/24</label>
+            <input type="radio" class="btn-check" name="options" id="option6" autocomplete="off">
+            <label class="btn btn-outline-secondary me-2" for="option6">jan/24</label>
+            <button class="btn btn-outline-secondary me-2">Selecionar período</button>
+          </div>
+
+
+          <h4 class="pb-2 mt-4">Equipe (4 de 5)</h4>
+          <table class="table">
+            <thead>
+              <th><input class="form-check-input" type="checkbox"></th>
+              <th>Nome</th>
+              <th class="text-end">Primeiro - Último (Acesso)</th>
+              <th class="text-end">Tipo de acesso</th>
+              <th class="text-end">Consumo</th>
+              <th class="text-end">BeeCoin</th>
+            </thead>
+            <tbody>
+              <tr>
+                <td><input class="form-check-input" type="checkbox"></td>
+                <td>Nome Sobrenome Silva</td>
+                <td class="text-end">dd/mm/aa - dd/mm/aa</td>
+                <td class="text-end">Administrador</td>
+                <td class="text-end">R$ 123,45</td>
+                <td class="text-end">+123</td>
+              </tr>
+              <tr>
+                <td><input class="form-check-input" type="checkbox"></td>
+                <td>Nome Sobrenome Souza</td>
+                <td class="text-end">dd/mm/aa - dd/mm/aa</td>
+                <td class="text-end">Administrador</td>
+                <td class="text-end">R$ 123,45</td>
+                <td class="text-end">+23</td>
+              </tr>
+              <tr>
+                <td><input class="form-check-input" type="checkbox"></td>
+                <td>Nome Sobrenome Soares</td>
+                <td class="text-end">dd/mm/aa - dd/mm/aa</td>
+                <td class="text-end">Administrador</td>
+                <td class="text-end">R$ 123,45</td>
+                <td class="text-end">-23</td>
+              </tr>
+              <tr>
+                <td><input class="form-check-input" type="checkbox"></td>
+                <td>Nome Sobrenome Silveira</td>
+                <td class="text-end">dd/mm/aa - dd/mm/aa</td>
+                <td class="text-end">Administrador</td>
+                <td class="text-end">R$ 123,45</td>
+                <td class="text-end">0</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h4 class="pb-2 mt-4">Consultas realizadas</h4>
+          <table class="table">
+            <thead>
+              <th>#</th>
+              <th>Tipo</th>
+              <th class="text-end">Quantidade</th>
+              <th class="text-end">Valor do clique</th>
+              <th class="text-end">Total utilizado</th>
+              <th class="text-end">Total utilizado com BeeCoin</th>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Lorem ipsum</td>
+                <td class="text-end">23</td>
+                <td class="text-end">R$ 2,34</td>
+                <td class="text-end">R$ 123,45</td>
+                <td class="text-end">123</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Lorem ipsum</td>
+                <td class="text-end">23</td>
+                <td class="text-end">R$ 2,34</td>
+                <td class="text-end">R$ 123,45</td>
+                <td class="text-end">123</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Lorem ipsum</td>
+                <td class="text-end">23</td>
+                <td class="text-end">R$ 2,34</td>
+                <td class="text-end">R$ 123,45</td>
+                <td class="text-end">123</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>Lorem ipsum</td>
+                <td class="text-end">23</td>
+                <td class="text-end">R$ 2,34</td>
+                <td class="text-end">R$ 123,45</td>
+                <td class="text-end">123</td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>Lorem ipsum</td>
+                <td class="text-end">23</td>
+                <td class="text-end">R$ 2,34</td>
+                <td class="text-end">R$ 123,45</td>
+                <td class="text-end">123</td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td class="text-end">
+                  Total em  R$ 12.345,00<br>
+                  <b>Saldo em R$ 123,45</b>
+              </td>
+              <td class="text-end">
+                  Total em Beecoin: 1.234<br>
+                  <b>Saldo em BeeCoin: 123</b>
+              </td>
+            </tfoot>
+          </table>
+
+          <div class="bee-rel-empresa">
+            <div class="row">
+              <div class="col">Valor do plano <span>R$ 1.000,00</span></div>
+              <div class="col">Consumo de serviços <span>R$ 500,00</span></div>
+              <div class="col">Crédito em BeeCoins: <span>R$ 400,00</span></div>
+              <div class="col">Valor final <span>R$ 1.100,00</span></div>
+            </div>
+          </div>
+
+          <h4 class="pb-2 mt-4">Histórico de atividade</h4>
+
+          <h4 class="pb-2 mt-4">Inserir comentário no PDF</h4>
+          <div class="form-floating">
+            <textarea class="form-control" placeholder="Leave a comment here" id="#" style="height: 100px"></textarea>
+            <label for="floatingTextarea2">Este comentário estará disponível somente para você</label>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <div w3-include-html="footer.html"></div>
+
+</main>
+
+    <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/dist/js/include-html.js"></script>
+    <script>
+      includeHTML();
+    </script>
+    
+  </body>
+</html>

@@ -414,3 +414,10 @@ span.bee-comentario {
   font-size: 0.8rem;
   font-weight: 400;
 }
+
+.bee-rel-empresa {
+  background-color: #E5E5E1;
+  padding: 2rem 2rem 1.25rem;
+  border-radius: 2rem;
+
+}
