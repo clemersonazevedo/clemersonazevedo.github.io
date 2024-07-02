@@ -1,0 +1,416 @@
+/* ============= DEFAULT ============= */
+@media only screen and (max-width: 5600px) {html {font-size: 80%;}}
+@media only screen and (max-width: 1366px) {html {font-size: 70%;}}
+
+body {
+  background-color: #E5E5E1;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  padding-top: 6rem;
+}
+button, a.btn {
+  border-radius: 0.8rem !important;
+  font-weight: 600 !important;
+}
+input[type=text], label.btn, select {
+  border-radius: 0.8rem !important;
+}
+button.btn-warning {
+  color: #FFF;
+}
+button.nav-link.active {
+  background: none !important;
+    border-radius: 0.8rem 0.8rem 0 0 !important;
+    border-left: 2px solid #7C796E;
+    border-bottom: 1px solid #E5E5E1;
+    border-top: 2px solid #7C796E;
+    border-right: 2px solid #7C796E;
+}
+h4 {
+  font-weight: 700;
+}
+hr {
+  color: #7C796E;
+}
+.navbar-brand img {
+  height: 3rem;
+}
+footer .bee-logo {
+  height: 2rem;
+}
+.table {
+  margin-top: 2.5rem;
+}
+.table thead {
+  background-color: #F2F2F0;
+}
+.table th, .table td {
+  vertical-align: middle;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  /* text-align: left; */
+}
+.table tr:hover {
+  background-color: #F2F2F0;
+}
+/* .table th:last-child, .table td:last-child {
+  text-align: right;
+} */
+.pagination .page-link {
+  color: #7C796E;
+}
+.pagination .active a {
+  background-color: #7C796E;
+  color: #FFF;
+  border: 1px solid #7C796E;
+}
+
+.accordion-item {
+  border: none;
+  margin-bottom: 0.5rem;
+}
+.accordion-header {
+  border-bottom: 1px solid #E5E5E1;
+}
+.accordion-button {
+  color: #7C796E;
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+.accordion-button:not(.collapsed) {
+  color: #292722;
+  background: none;
+  box-shadow: none;
+  background-color: #E5E5E1;
+  border-radius: 1.25rem 1.25rem 0 0 !important;
+}
+.accordion-collapse.collapse.show {
+  background-color: #F2F2F0;
+  border-radius: 0 0 1.25rem 1.25rem;
+}
+/* ============= DEFAULT ============= */
+
+/* ============= CUSTOM ============= */
+.bee-bg-light {
+  background-color: #F2F2F0;
+}
+.bee-bg-light-shadow {
+  background-color: #E5E5E1;
+}
+.bee-bg-gray {
+  background-color: #BDBCB6;
+}
+.bee-bg-white {
+  background-color: #FFF;
+}
+.bee-header {
+  border-bottom: 1px solid #E5E5E1;
+}
+.bee-card {
+  background-color: #FFF;
+  border-radius: 2.5rem;
+  padding: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.bee-card-hover {
+  border-radius: 2.5rem;
+}
+.bee-card-inside {
+  padding: 2.5rem;
+}
+.bee-card-inside-small {
+  padding: 1.25rem 2.5rem;
+}
+
+.bee-count-home {
+  background-color: #F2F2F0;
+  border-radius: 1.25rem;
+}
+.bee-count-home a {
+  text-decoration: none;
+}
+.bee-count-home .bee-number {
+  background-color: #FFF;
+  border: 3px solid #F2F2F0;
+  border-radius: 1.25rem;
+  font-size: 3.125rem;
+  font-weight: bold;
+  padding: 3.125rem 0;
+  text-align: center;
+}
+.bee-count-home .bee-number label {
+  font-weight: 300;
+  color: #7C796E;
+}
+.bee-count-home .bee-label {
+  text-align: center;
+  color: #7C796E;
+  padding: 0.45rem 0 0.85rem;
+}
+.bee-footer {
+  color: #F2F2F0;
+  font-weight: 300;
+}
+.bee-footer li {
+  list-style: none;
+}
+.bee-footer a {
+  color:#F2F2F0;
+  text-decoration: none;
+}
+.bee-nav .nav-item button.nav-link {
+  padding: 0 1rem;
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+  border-radius: 1.25rem !important;
+  border: 1px solid #FFF !important;
+  width: 100%;
+}
+.bee-nav .nav-item button.nav-link.active {
+  background-color: #FFF !important;
+  color: #EB9C00;
+}
+.nav-tabs button.nav-link {
+  color: #7C796E;
+}
+.bee-nav label {
+  padding: 0.1rem 1rem;
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+  width: 100%;
+  font-weight: 300;
+  color: #EB9C00;
+  text-align: center;
+  display: block;
+}
+.bee-nav h5 {
+  width: 100%;
+  text-align: center;
+  display: block;
+  color: #FFF;
+  font-weight: 300;
+  font-size: 1rem;
+  margin-top: 0.6rem;
+}
+.bee-nav-disabled {
+  opacity: 0.25;
+}
+.bee-nav .nav-link:focus, .bee-nav .nav-link:hover {
+  color: #FF742E;
+}
+
+/* ============= COMPONENTE DE APONTAMENTO ============= */
+.bee-card-info {
+  background-color: #FFF;
+  border-radius: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+/* .bee-card-alerta {
+  border: 3px solid #DB1F28;
+} */
+.bee-informante {
+  background-color: #F2F2F0;
+  border: 3px solid #FFF;
+  border-radius: 2.5rem;
+  padding: 2.5rem;
+}
+.bee-informacao {
+  padding: 2.5rem 2.5rem 1rem;
+}
+.bee-info {
+  margin-bottom: 1.25rem;
+  font-size: 1.1rem;
+}
+.bee-info h5.beeid {
+  color: rgba(124, 121, 110, 0.5);
+}
+.bee-info:last-child {
+  margin-bottom: 0;
+}
+.bee-info h5 {
+  color: #7C796E;
+  font-weight: 300;
+  margin-bottom: 0;
+  font-size: 1.1rem;
+  line-height: 1.75rem;
+}
+.bee-info span {
+  font-weight: 700;
+}
+.bee-card-hover .bee-info span {
+  font-weight: 300;
+}
+.bee-icone h5 {
+  float: left;
+  margin-right: 0.75rem;
+  font-size: 1.2rem;
+}
+
+/* ============= TAG DE APONTAMENTO GERAL ============= */
+.bee-info-tipo {
+  padding: 0.2rem 2rem;
+}
+.bee-info-tipo .bee-badge {
+  padding: 0.35rem 1rem;
+  font-size: 1rem;
+  font-weight: 700;
+}
+/* ============= TAG DE APONTAMENTO MESA ============= */
+.bee-info-mesa {
+  background-color: #0BBCFC;
+  color: #FFF;
+}
+.bee-info-mesa .bee-badge {
+  background-color: #FFF;
+  color: #0BBCFC;
+}
+/* ============= TAG DE APONTAMENTO MOVIMENTO ============= */
+.bee-info-movimento {
+  background-color: #EB9C00;
+  color: #FFF;
+}
+.bee-info-movimento .bee-badge {
+  background-color: #FFF;
+  color: #EB9C00;
+}
+/* ============= TAG DE APONTAMENTO MOVIMENTO FALIMENTAR ============= */
+.bee-info-falimentar {
+  background-color: #7C796E;
+  color: #FFF;
+}
+.bee-info-falimentar .bee-badge {
+  background-color: #FFF;
+  color: #7C796E;
+}
+/* ============= TAG DE APONTAMENTO ALERTA + PROTESTOS ============= */
+.bee-info-alerta, .bee-info-protesto {
+  background-color: #FF742E;
+  color: #FFF;
+}
+.bee-info-alerta .bee-badge, .bee-info-protesto .bee-badge{
+  background-color: #FFF;
+  color: #FF742E;
+}
+/* ============= TAG DE APONTAMENTO DEMANDA JUDICIAL ============= */
+.bee-info-demanda {
+  background-color: #DB1F28;
+  color: #FFF;
+}
+.bee-info-demanda .bee-badge {
+  background-color: #FFF;
+  color: #DB1F28;
+}
+/* ============= TAG DE APONTAMENTO LIMINAR ============= */
+.bee-info-liminar {
+  background-color: #292722;
+  color: #FFF;
+}
+.bee-info-liminar .bee-badge {
+  background-color: #FFF;
+  color: #292722;
+}
+
+.bee-info-consulta .bee-informacao, .bee-info-consulta .bee-informante {
+  padding: 1rem 2.5rem;
+}
+.bee-info-consulta .bee-info:last-child {
+  margin-bottom: 1.25rem;
+}
+
+.bee-info-consultar {
+  background-color: #F2F2F0;
+  padding: 0.5rem 1.3rem;
+  border-radius: 1.3rem;
+}
+.bee-info-consultar span {
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin-right: 0.8rem;
+}
+.bee-info-consultar button {
+  margin-right: 0.8rem;
+}
+
+h5.bee-cod {
+  color: #E5E5E1;
+}
+/* ============= COMPONENTE DE APONTAMENTO ============= */
+
+/* MODAL */
+.modal-content {
+  background-color: #E5E5E1;
+  border-radius: 2rem;
+  border: none;
+}
+.modal-header {
+  padding: 2rem 2.75rem 0 2.75rem;
+  border: none;
+  color: #292722;
+}
+.modal-body {
+  padding: 1rem 2rem;
+}
+.modal-body textarea {
+  border-radius: 1rem;
+}
+.modal-body p {
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+}
+.modal-title {
+  font-weight: 700;
+}
+.modal-body span {
+  font-weight: 700;
+}
+.modal-body .bee-table-modal {
+  background-color: #FFF;
+  padding: 1rem 1.8rem;
+  border-radius: 1rem;
+  margin: 0 -2rem 0 -2rem;
+}
+.modal-body table {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.modal-body th {
+  border-bottom: 1px solid #E5E5E1;
+}
+.modal-body td {
+  border-bottom: 1px solid #F2F2F0;
+}
+.modal-footer {
+  padding: 0 2.25rem 2rem 2.25rem;
+  border: none;
+}
+.bee-homonimo {
+  background-color: #FFF;
+  margin: 0rem -2rem 1.75rem;
+  padding: 1.25rem 2.8rem;
+}
+
+
+.bee-modal-content {
+  background-color: #FFF;
+  margin: 0 -2rem;
+}
+.bee-modal-header {
+  background-color: #E5E5E1;
+  border-radius: 0 0 2rem 2rem;
+  padding: 0 2.75rem 2rem;
+}
+.bee-modal-content-info {
+  background-color: #FFF;
+  border-radius: 0 0 2rem 2rem;
+  margin: 0 -2rem;
+  padding: 2rem;
+}
+.bee-modal-footer {
+  margin: 2rem -2rem -1rem;
+}
+
+span.bee-comentario {
+  font-size: 0.8rem;
+  font-weight: 400;
+}

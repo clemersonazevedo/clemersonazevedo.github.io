@@ -1,0 +1,136 @@
+<div class="modal fade" id="modalMovimento" tabindex="-1" aria-labelledby="modalMovimentoLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title text-secondary" id="modalMovimentoLabel">Criar movimento</h3>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body .bee-bg-light-shadow">
+        <div class="bee-modal-content">
+          <!-- HEADER -->
+          <div class="bee-modal-header">
+            <div class="row mb-3">
+              <div class="col-4">
+                <input type="text" class="form-control" placeholder="CNPJ">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-8">
+                <div class="row">
+                  <div class="col-6 bee-info">
+                    <h5>Razão social</h5>
+                    <span>Empresa Nome Ltda.</span>
+                  </div>
+                  <div class="col-6 bee-info">
+                    <h5>Cidade</h5>
+                    <span>Nome da Cidade</span>
+                  </div>
+                  <div class="col-6 bee-info">
+                    <h5>Nome Fantasia</h5>
+                    <span>Nome Fantasia</span>
+                  </div>
+                  <div class="col-6 bee-info">
+                    <h5>Estado</h5>
+                    <span>UF</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4 bee-info">
+                <h5>Segmento, <span class="text-dark">0,7%</span> dos apontamentos</h5>
+                <span>Comércio varejista de mercadorias em geral, com predominância de produtos alimentícios - minimercados, mercearias e armazéns</span>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <button class="btn btn-secondary me-3" data-bs-toggle="modal" data-bs-target="#">Atividades do negócio</button>
+                <button class="btn btn-secondary me-3" data-bs-toggle="modal" data-bs-target="#">Quadro societário</button>
+              </div>
+            </div>
+          </div>
+          <!-- HEADER -->
+        </div>
+
+        <!-- CONTENT -->
+        <div class="row bee-modal-content-info">
+          <span class="mb-3">Informe o alerta e deixe seu comentário</span>
+          <div class="col-3">
+            <select class="form-select">
+              <option selected>Tipo de registro</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+          </div>
+          <div class="col-3">
+            <select class="form-select">
+              <option selected>Tipo de apontamento</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+          </div>
+          <div class="col-6 mb-3">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Comente sobre seu caso para colaborar com outros parceiros." aria-describedby="button-addon2">
+              <button class="btn btn-outline-secondary" type="button" id="button-addon2">
+                <i class="fa-solid fa-microphone"></i>
+              </button>
+            </div>
+            <span class="bee-comentario ms-3 mb-3">Comentários com mais de 90 caracteres recebem mais <b>BeeCoins</b>.</span>
+          </div>
+
+          <hr>
+          
+          <span class="my-3">Identificou nesta empresa alguma dessas situações?</span>
+          <div class="row mt-2 mb-4">
+            <div class="col-12 mb-2">
+              <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox">
+                <label class="form-check-label">Gestor por procuração</label>
+              </div>
+            </div>
+            <div class="col-3">
+              <label class="form-label">CPF do gestor da procuração</label>
+              <input type="text" class="form-control" id="#" placeholder="Ex: 000.000.000-00">
+            </div>
+            <div class="col-3">
+              <label class="form-label">Nome do gestor da procuração</label>
+              <input type="text" class="form-control" id="#" placeholder="Nome Completo">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 mb-2">
+              <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox">
+                <label class="form-check-label">Dificuldade de Protestos</label>
+              </div>
+            </div>
+            <div class="col-3">
+              <label class="form-label">Nome do Cartório</label>
+              <input type="text" class="form-control">
+            </div>
+            <div class="col-3">
+              <label class="form-label">Cidade do Cartório</label>
+              <input type="text" class="form-control" id="#">
+            </div>
+          </div>
+
+
+        </div>
+        <!-- CONTENT -->
+
+        <div class="modal-footer bee-modal-footer d-flex justify-content-between">
+
+          <button type="button" class="btn btn-outline-secondary me-auto" data-bs-dismiss="modal">Cancelar</button>
+
+          <span class="bee-comentario me-3">Você vai receber <b><i class="fa-brands fa-forumbee text-primary"></i> 2 BeeCoins</b> por essa contribuição</span>
+          <div class="form-check form-switch me-3">
+            <input class="form-check-input" type="checkbox" checked>
+            <label class="form-check-label">Não quero me identificar</label>
+          </div>
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Criar alerta (anônimo)</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

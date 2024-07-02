@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.104.2">
+
+    <title>BeeCred</title>
+    
+    <link href="assets/dist/fontawesome/css/all.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/headers/">
+    <link href="assets/dist/css/navbar-top-fixed.css">
+    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/dist/css/headers.css" rel="stylesheet">
+    
+    <link rel="icon" href="assets/dist/images/beecred-logo.svg">
+    <link href="assets/dist/css/custom.css" rel="stylesheet">
+  </head>
+  <body>
+    
+<main>
+
+  <div w3-include-html="header.html"></div>
+  
+  <main class="container p-4">
+    <div class="row justify-content-center">
+      <div class="col">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb p-3">
+            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+            <li class="breadcrumb-item"><a href="apontamentos-lista.html">Apontamentos</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Empresa Nome Ltda.</li>
+          </ol>
+        </nav>
+      </div>
+      <div class="col-3">
+        <input type="text" class="form-control bg-light" placeholder="Nova pesquisa">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12">
+        <div class="bg-secondary bee-card-hover">
+          <div class="bg-light bee-card-hover">
+            <div class="bee-bg-white bee-card-inside bee-card-hover">
+              <h4 class="pb-2">Empresa Nome Ltda.</h4>
+              <div class="row">
+                <div class="col-auto me-4">
+                  <div class="bee-info">
+                    <span><span class="badge bg-success me-2">Ativa</span>00.000.000/0000-00</span>
+                    <h5 class="beeid">baed9f7ac28cf60727166e7fecc0ce44</h5>
+                  </div>
+                </div>
+                <div class="col-auto me-4">
+                  <div class="bee-info bee-icone">
+                    <h5><i class="fa-solid fa-phone"></i></h5>
+                    <span>+55 (85) 98765-4321</span>
+                  </div>
+                </div>
+                <div class="col-auto me-4">
+                  <div class="bee-info bee-icone">
+                    <h5><i class="fa-solid fa-location-dot"></i></h5>
+                    <span>AMONTADA / CE</span>
+                  </div>
+                </div>
+              </div>
+              <div class="row mt-3">
+                <div class="col bee-info">
+                  <h5>Segmento <span class="text-dark fw-bold">0,7% </span>dos apontamentos</h5>
+                  <span>Comércio varejista de mercadorias em geral, com predominância de produtos alimentícios - minimercados, mercearias e armazéns</span>
+                </div>
+              </div>
+             
+            </div>
+            <div class="bee-card-inside">
+              
+              <div class="pb-4">
+                <button class="btn btn-secondary me-2"><i class="fa-solid fa-newspaper me-2"></i>Reportagens</button>
+                <button class="btn btn-secondary me-2" data-bs-toggle="modal" data-bs-target="#modalPedidoContribuicaoTodos"><i class="fa-solid fa-comments me-2"></i>Pedir contribuição para todos</button>
+                <button class="btn btn-secondary me-2"><i class="fa-solid fa-video me-2"></i>Monitorar CNPJ</button>
+                <!-- <button class="btn btn-secondary me-2"><i class="fa-solid fa-circle-plus me-2"></i>Checagem, adicionar à lista</button> -->
+                <button class="btn btn-secondary me-2"><i class="fa-solid fa-list-check me-2"></i>Checagem, adicionar à lista</button>
+              </div>
+              
+              <nav>
+                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                  <button class="nav-link active" id="nav-consultas-pagas-tab" data-bs-toggle="tab" data-bs-target="#nav-consultas-pagas" type="button" role="tab" aria-controls="nav-consultas-pagas" aria-selected="true">Consultas pagas</button>
+                  <button class="nav-link" id="nav-consultas-personalizadas-tab" data-bs-toggle="tab" data-bs-target="#nav-consultas-personalizadas" type="button" role="tab" aria-controls="nav-consultas-personalizadas" aria-selected="false">Consultas personalizadas</button>
+                </div>
+              </nav>
+              <div class="tab-content pt-4" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="nav-consultas-pagas" role="tabpanel" aria-labelledby="nav-consultas-pagas-tab" tabindex="0">
+                  <button class="btn btn-primary me-2">Pefin/Refin Boa Vista - R$ 12</button>
+                  <button class="btn btn-primary me-2">Boa Vista - R$ 12</button>
+                  <button class="btn btn-primary me-2">Pefin/Refin Serasa - R$ 12</button>
+                  <button class="btn btn-primary me-2">Veículos - R$ 12</button>
+                  <button class="btn btn-primary me-2">SRC - R$ 12</button>
+                </div>
+                <div class="tab-pane fade" id="nav-consultas-personalizadas" role="tabpanel" aria-labelledby="nav-consultas-personalizadas-tab" tabindex="0">
+                  <button class="btn btn-primary me-2">Boa Vista - R$ 12</button>
+                  <button class="btn btn-primary me-2">SRC - R$ 12</button>
+                  <button class="btn btn-primary me-2">Veículos - R$ 12</button>
+                  <button class="btn btn-primary me-2">Pefin/Refin Boa Vista - R$ 12</button>
+                  <button class="btn btn-primary me-2">Pefin/Refin Serasa - R$ 12</button>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="bee-card-inside-small">
+            
+            <div class="row nav nav-pills bee-nav" id="pills-tab" role="tablist">
+              <div class="col nav-item" role="presentation">
+                <button class="nav-link active" id="pills-lancamentos-tab" data-bs-toggle="pill" data-bs-target="#pills-lancamentos" type="button" role="tab" aria-controls="pills-lancamentos" aria-selected="true">82</button>
+                <h5>Todos lançamentos</h5>
+              </div>
+              <div class="col nav-item">
+                <button class="nav-link" id="pills-demanda-tab" data-bs-toggle="pill" data-bs-target="#pills-demanda" type="button" role="tab" aria-controls="pills-demanda" aria-selected="true">38</button>
+                <h5>Demanda judicial</h5>
+              </div>
+              <div class="col nav-item">
+                <button class="nav-link" id="pills-liminar-tab" data-bs-toggle="pill" data-bs-target="#pills-liminar" type="button" role="tab" aria-controls="pills-liminar" aria-selected="true">40</button>
+                <h5>Liminar</h5>
+              </div>
+              <div class="col nav-item">
+                <button class="nav-link" id="pills-protestos-tab" data-bs-toggle="pill" data-bs-target="#pills-protestos" type="button" role="tab" aria-controls="pills-protestos" aria-selected="true">40</button>
+                <h5>Protestos</h5>
+              </div>
+              <div class="col nav-item">
+                <button class="nav-link" id="pills-rj-falencia-tab" data-bs-toggle="pill" data-bs-target="#pills-rj-falencia" type="button" role="tab" aria-controls="pills-rj-falencia" aria-selected="true"><span>2</span>/<span>1</span></button>
+                <h5>RJ / Falência</h5>
+              </div>
+              <div class="col nav-item">
+                <button class="nav-link" id="pills-gestor-tab" data-bs-toggle="pill" data-bs-target="#pills-gestor" type="button" role="tab" aria-controls="pills-gestor" aria-selected="true">40</button>
+                <h5>Gestor</h5>
+              </div>
+              <div class="col nav-item">
+                <button class="nav-link" id="pills-dificuldade-protesto-tab" data-bs-toggle="pill" data-bs-target="#pills-dificuldade-protesto" type="button" role="tab" aria-controls="pills-dificuldade-protesto" aria-selected="true">40</button>
+                <h5>Dificuldade de protesto</h5>
+              </div>
+              <div class="col nav-item">
+                <button class="nav-link" id="pills-consultas-tab" data-bs-toggle="pill" data-bs-target="#pills-consultas" type="button" role="tab" aria-controls="pills-consultas" aria-selected="true">40</button>
+                <h5>Consultas</h5>
+              </div>
+              <div class="col">
+                <label>55/33</label>
+                <h5>Sacado / Cedente</h5>
+              </div>
+              <div class="col">
+                <label>99</label>
+                <h5>Ambos</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row mt-4">
+      <div class="col d-flex justify-content-center pt-3">
+        <nav>
+          <ul class="pagination text-secondary">
+            <li class="page-item">
+              <a class="page-link" href="#" aria-label="Previous">
+                <span aria-hidden="true">&laquo;</span>
+              </a>
+            </li>
+            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item">
+              <a class="page-link" href="#" aria-label="Next">
+                <span aria-hidden="true">&raquo;</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12">
+        
+          <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-lancamentos" role="tabpanel" aria-labelledby="pills-lancamentos-tab" tabindex="0">
+              <div w3-include-html="apontamento-nulo.html"></div>
+              <div w3-include-html="apontamento-alerta.html"></div>
+              <div w3-include-html="apontamento-demanda-paga.html"></div>
+              <div w3-include-html="apontamento-falimentar.html"></div>
+              <div w3-include-html="apontamento-liminar.html"></div>
+              <div w3-include-html="apontamento-mesa.html"></div>
+              <div w3-include-html="apontamento-movimento.html"></div>
+              <div w3-include-html="apontamento-protesto-pago.html"></div>
+            </div>
+            <div class="tab-pane fade" id="pills-demanda" role="tabpanel" aria-labelledby="pills-demanda-tab" tabindex="0">
+              <div w3-include-html="apontamento-demanda.html"></div>
+              <div w3-include-html="apontamento-demanda-paga.html"></div>
+              <div w3-include-html="apontamento-liminar.html"></div>
+            </div>
+            <div class="tab-pane fade" id="pills-liminar" role="tabpanel" aria-labelledby="pills-liminar-tab" tabindex="0">
+              <div w3-include-html="apontamento-liminar.html"></div>
+            </div>
+            <div class="tab-pane fade" id="pills-protestos" role="tabpanel" aria-labelledby="pills-protestos-tab" tabindex="0">
+              <div w3-include-html="apontamento-protesto.html"></div>
+              <div w3-include-html="apontamento-protesto-pago.html"></div>
+            </div>
+            <div class="tab-pane fade" id="pills-rj-falencia" role="tabpanel" aria-labelledby="pills-rj-falencia-tab" tabindex="0">
+              <div w3-include-html="apontamento-alerta.html"></div>
+            </div>
+            <div class="tab-pane fade" id="pills-gestor" role="tabpanel" aria-labelledby="pills-gestor-tab" tabindex="0">
+              <div w3-include-html="apontamento-alerta.html"></div>
+            </div>
+            <div class="tab-pane fade" id="pills-dificuldade-protesto" role="tabpanel" aria-labelledby="pills-dificuldade-protesto-tab" tabindex="0">
+              <div w3-include-html="apontamento-alerta.html"></div>
+            </div>
+            <div class="tab-pane fade" id="pills-consultas" role="tabpanel" aria-labelledby="pills-consultas-tab" tabindex="0">
+              <div w3-include-html="apontamento-consulta.html"></div>
+              <div w3-include-html="apontamento-consulta.html"></div>
+              <div w3-include-html="apontamento-consulta.html"></div>
+              <div w3-include-html="apontamento-consulta.html"></div>
+              <div w3-include-html="apontamento-consulta.html"></div>
+              <div w3-include-html="apontamento-consulta.html"></div>
+              <div w3-include-html="apontamento-consulta.html"></div>
+              <div w3-include-html="apontamento-consulta.html"></div>
+              <div w3-include-html="apontamento-consulta.html"></div>
+            </div>
+          </div>
+        
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col d-flex justify-content-center pt-3">
+        <nav>
+          <ul class="pagination text-secondary">
+            <li class="page-item">
+              <a class="page-link" href="#" aria-label="Previous">
+                <span aria-hidden="true">&laquo;</span>
+              </a>
+            </li>
+            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item">
+              <a class="page-link" href="#" aria-label="Next">
+                <span aria-hidden="true">&raquo;</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+  </main>
+
+  <div w3-include-html="footer.html"></div>
+
+</main>
+
+    <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/dist/js/include-html.js"></script>
+    <script>
+      includeHTML();
+    </script>
+    
+  </body>
+</html>

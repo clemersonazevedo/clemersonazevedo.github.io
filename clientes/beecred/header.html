@@ -1,0 +1,54 @@
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bee-bg-white p-3 bee-header">
+
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">
+      <img class="float-start me-2" src="assets/dist/images/beecred-logo.svg">
+      <h1 class="my-0 fw-bold text-dark float-start">BeeCred</h1>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+        <li><button type="button" class="btn btn-warning mx-2" data-bs-toggle="modal" data-bs-target="#modalAlerta">Alerta</button></li>
+        <li><button type="button" class="btn btn-info mx-2" data-bs-toggle="modal" data-bs-target="#modalMesa">Mesa de crédito</button></li>
+        <li><button type="button" class="btn btn-secondary mx-2" data-bs-toggle="modal" data-bs-target="#modalMovimento">Movimento</button></li>
+      </ul>
+      <div class="dropdown ms-2">
+        <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+          <img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" class="rounded-circle">
+        </a>
+        <ul class="dropdown-menu dropdown-menu-end text-small">
+          <li><a class="dropdown-item" href="perfil.html">Minha conta</a></li>
+          <li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" href="central-do-assinante.html">Central do assinante</a></li>
+          <li><a class="dropdown-item" href="#">Relatórios</a></li>
+          <li><a class="dropdown-item" href="#">API</a></li>
+          <li><a class="dropdown-item" href="#">Plugin</a></li>
+          <li><a class="dropdown-item" href="#">Minhas consultas</a></li>
+          <li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item text-danger" href="#">Desconectar</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  
+</nav>
+
+<!-- BTS APONTAMENTOS -->
+<div w3-include-html="modal-coligadas.html"></div>
+<div w3-include-html="modal-pedido-contribuicao.html"></div>
+<div w3-include-html="modal-credores.html"></div>
+<div w3-include-html="modal-passivos-liminar.html"></div>
+<div w3-include-html="modal-passivos-processo.html"></div>
+<div w3-include-html="modal-ativos-processo.html"></div>
+<div w3-include-html="modal-homonimos.html"></div>
+<!-- BTS HEADER APONTAMENTOS -->
+<div w3-include-html="modal-pedido-contribuicao-todos.html"></div>
+<!-- BTS HEADER -->
+<div w3-include-html="modal-alerta.html"></div>
+<div w3-include-html="modal-movimento.html"></div>
+<div w3-include-html="modal-mesa.html"></div>
+<div w3-include-html="modal-telefone-alerta.html"></div>
+
+<!-- data-bs-toggle="modal" data-bs-target="#modal" -->
